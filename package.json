@@ -7,11 +7,19 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Kory Nunn <knunn187@gmail.com>",
   "license": "n",
   "devDependencies": {
     "tape": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/schedule-frame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/schedule-frame/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/schedule-frame#readme"
 }
