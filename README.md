@@ -28,11 +28,13 @@ will result in the task running only once.
 
 If you need to pass a new function in each call but still only want the last one run, you can used a unique task key:
 
+```
 var myKey = {}; // new object instance, can't clash with anything else.
 
 schedule(function(){
     // do things
 }, myKey);
+```
 
 ## How is this different to requestAnimationFrame
 
