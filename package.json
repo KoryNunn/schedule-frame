@@ -1,0 +1,17 @@
+{
+  "name": "schedule-frame",
+  "version": "1.0.0",
+  "description": "Schedule some work to run on the next frame",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kory Nunn <knunn187@gmail.com>",
+  "license": "n",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
